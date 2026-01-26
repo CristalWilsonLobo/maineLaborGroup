@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --navy: #132b45;
+  --navy2: #0f243a;
+  --accent: #f97316; /* orange */
+}
+body { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial; }
