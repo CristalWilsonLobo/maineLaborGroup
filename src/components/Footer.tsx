@@ -32,7 +32,7 @@ export default function Footer() {
           <ul className="text-sm mt-2 space-y-2">
             <li>(000) 000-0000</li>
             <li>info@arclaborgroup.com</li>
-            <li>123 Business Ave, Suite 100</li>
+            <li>10 Business Ave, Suite 100</li>
           </ul>
         </div>
       </div>

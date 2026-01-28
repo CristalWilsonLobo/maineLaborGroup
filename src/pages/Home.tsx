@@ -279,12 +279,12 @@ export default function Home() {
               <div className="mt-8 flex flex-wrap gap-3">
                 <a
                   href="#find-talent"
-                  className="inline-flex items-center justify-center rounded-xl bg-orange-500 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-orange-600 transition"
+                  className="inline-flex items-center justify-center rounded-xl bg-[#6FA3D2] px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-blue-600 transition"
                 >
                   Find Talent →
                 </a>
                 <a
-                  href="/job-seekers"
+                  href="/maineLaborGroup/job-seekers"
                   className="inline-flex items-center justify-center rounded-xl border border-white/25 bg-white/5 px-6 py-3 text-sm font-semibold text-white hover:bg-white/10 transition"
                 >
                   Find Work

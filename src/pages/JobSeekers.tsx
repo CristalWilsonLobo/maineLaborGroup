@@ -102,6 +102,7 @@ export default function JobSeekers() {
   }
 
   return (
+    <div>
     <section className="bg-gradient-to-b from-[color:var(--navy)] to-[color:var(--navy2)]">
       {/* Hero */}
       <div className="max-w-6xl mx-auto px-4 py-14 text-white text-center">
@@ -115,11 +116,12 @@ export default function JobSeekers() {
           opportunities across all industries and skill levels.
         </p>
       </div>
-
+    </section>
       {/* Form Card */}
+      <section>
       <div className="max-w-6xl mx-auto px-4 pb-16">
         <div className="-mt-8 mx-auto max-w-3xl">
-          <div className="rounded-2xl bg-white shadow-xl ring-1 ring-slate-200">
+          <div className="mt-16 rounded-2xl bg-white shadow-xl ring-1 ring-slate-200">
             <div className="p-8">
               <h2 className="text-xl font-semibold text-slate-900">Job Seeker Application</h2>
               <p className="mt-2 text-slate-600">
@@ -290,6 +292,7 @@ export default function JobSeekers() {
           </div>
         </div>
       </div>
-    </section>
+      </section>
+    </div>
   );
 }

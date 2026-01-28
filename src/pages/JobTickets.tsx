@@ -103,6 +103,7 @@ export default function JobTickets() {
   }
 
   return (
+    <div>
     <section className="bg-gradient-to-b from-[color:var(--navy)] to-[color:var(--navy2)]">
       {/* Header */}
       <div className="max-w-6xl mx-auto px-4 py-14 text-white text-center">
@@ -117,11 +118,12 @@ export default function JobTickets() {
           Please submit your weekly job ticket on every Friday of the week.
         </p>
       </div>
-
+    </section>
       {/* Form Card */}
+      <section>
       <div className="max-w-6xl mx-auto px-4 pb-16">
         <div className="-mt-8">
-          <div className="mx-auto w-full max-w-3xl rounded-2xl bg-white shadow-xl ring-1 ring-black/5">
+          <div className="mt-16 mx-auto w-full max-w-3xl rounded-2xl bg-white shadow-xl ring-1 ring-black/5">
             <div className="p-6 sm:p-8">
               <h2 className="text-lg font-semibold text-slate-900">Job Ticket Submission</h2>
               <p className="mt-1 text-sm text-slate-600">
@@ -366,5 +368,6 @@ export default function JobTickets() {
         </div>
       </div>
     </section>
+  </div>
   );
 }
