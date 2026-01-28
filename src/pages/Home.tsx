@@ -283,12 +283,14 @@ export default function Home() {
                 >
                   Find Talent →
                 </a>
+                {/* 
                 <a
                   href="job-seekers"
                   className="inline-flex items-center justify-center rounded-xl border border-white/25 bg-white/5 px-6 py-3 text-sm font-semibold text-white hover:bg-white/10 transition"
                 >
                   Find Work
                 </a>
+                */}
               </div>
             </div>
 
